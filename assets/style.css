@@ -1,0 +1,16 @@
+/* No hints in here */
+
+.clearfix:after {content: ""; display: table; clear: both;}
+body {background-color: #ECEDD8; color: #382910; font-family: sans-serif;}
+.wrapper {width: 800px; margin: 50px auto 0; background-color: #F5F5F5; border: 3px solid #3297B5; border-radius: 6px; padding: 10px;}
+.center {text-align: center;}
+h1 {border-bottom: 2px solid #3297B5;}
+a {color: #3297B5; text-decoration: none;}
+a:hover:not(.button) {text-decoration: underline;}
+.button {display: inline-block; background-color: #66B0C6; color: white; font-size: 16px; padding: 6px 12px; border: 1px solid #000; border-radius: 6px; cursor: pointer; box-shadow: 0 0 8px #aaa; margin: 7px;}
+.button:hover {background-color: #3297B5;}
+.center {text-align: center;}
+textarea {width: 95%; height: 120px;}
+span {font-family: monospace;}
+.embiggen {transform: scale(1.2); margin: 100px;}
+@media only screen and (max-device-width: 800px){.embiggen span::after {content: "lmth.eceipa"; direction: rtl; unicode-bidi: bidi-override;}}
